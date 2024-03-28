@@ -24,3 +24,5 @@ TypeError: EditProfileForm.__init__() missing 1 required positional argument: 'o
 2024-03-23 09:43:28,233 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
 2024-03-23 09:43:39,778 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
 2024-03-23 09:44:52,321 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-28 10:02:31,404 INFO: theSpace startup [in /home/stanley/theSpace/app/__init__.py:48]
+2024-03-28 10:05:21,959 INFO: theSpace startup [in /home/stanley/theSpace/app/__init__.py:48]
