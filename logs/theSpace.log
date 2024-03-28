@@ -1,0 +1,26 @@
+2024-03-20 10:44:04,941 ERROR: Exception on /edit_profile [GET] [in /home/stanley/proj-blog/venv/lib/python3.10/site-packages/flask/app.py:1414]
+Traceback (most recent call last):
+  File "/home/stanley/proj-blog/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/stanley/proj-blog/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/stanley/proj-blog/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/stanley/proj-blog/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/stanley/proj-blog/app/routes.py", line 65, in edit_profile
+    form = EditProfileForm()
+  File "/home/stanley/proj-blog/venv/lib/python3.10/site-packages/wtforms/form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: EditProfileForm.__init__() missing 1 required positional argument: 'original_username'
+2024-03-20 10:45:33,936 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-20 10:45:37,084 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:16:05,909 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:36:01,267 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:38:39,431 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:39:23,871 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:43:00,861 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:43:22,950 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:43:28,233 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:43:39,778 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
+2024-03-23 09:44:52,321 INFO: theSpace startup [in /home/stanley/proj-blog/app/__init__.py:44]
